@@ -3,3 +3,13 @@ Python:
 ## Day1
 String: non-code words, expressed in the double quote
 print() print a string or a code
+\n new line e.g. print("Hello world\nHello world!")
+String concatenation: print("Hello" + "Angela") # print both strings without space
+
+input() function: a prompt for the user, you can give an input on the console
+# Thonny is an application to visualize the step-by-step execution of python code. 
+#? out commenting  shortcut?
+variable  # save a data with a reference to the variable(name)
+# name your variables readable and some kind of reasonable for you that you can recognize them afterwards
+# no numbers in front of the variable names, it will cause syntax error
+
