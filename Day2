@@ -1,0 +1,56 @@
+## Data types
+# Subscripting
+print("Hello"[0])
+
+# String = every data with ""
+print("123"+"345")
+
+# Integer = Whole number
+print(123+345)
+
+# Large integer
+print (123_345_567)
+
+# Float = Floating point number
+print(3.14159)
+
+# Bollean
+print(True)
+print(False)
+
+len("Hello")
+# print type of data
+print(type("Hello"))
+
+# Data type conversion
+print("123")+int("345"))
+int()
+float()
+str()
+bool()
+    # but sometimes you can not do the type conversion and lose the data (ValueError)
+
+## Mathmatical operations on Python
+print(123+234)
+print(2-3)
+print(3*4)
+print(6/2) # Output automatically in float
+print(6//2) # floor division, output in integer by removing the decimals
+print(2**4) # power
+print(round(3.757, 1)) # round n until 1st decimal
+
+# PEMDASLR: Prentheses, Exponents, Multiplication/division, Addition/Substraction, Left to right
+
+#Number manipulation
+score=0
+score+=1
+print(score)
+
+# f-string 
+print(f"Your score is = {integer}, your heig is {float},. You are winning is {boolean}. )
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+people = int(input("How many people to split the bill? "))
+print("$" + str(round(bill * (tip + 100) / 100 / people, 2)))
