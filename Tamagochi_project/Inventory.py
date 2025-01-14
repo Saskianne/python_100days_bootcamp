@@ -37,15 +37,12 @@ def inventory.open():
     while inventory.purchase == TRUE:
         inventory.purchase
     
-
 done
 
 def inventory.close():
     print("\n ")
     print(# main graphic surface)
 done
-
-
 
 
 
