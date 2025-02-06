@@ -1,5 +1,8 @@
 import os
-os.chdir(C:\Users\swlee\python_100days_bootcamp)
+
+cwd = os.getcwd()
+print(cwd) 
+#os.chdir(C:\Users\swlee\python_100days_bootcamp)
 cwd = os.getcwd()
 print(cwd)   
 
