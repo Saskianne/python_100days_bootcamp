@@ -1,3 +1,5 @@
+git: clone: https://github.com/YourUsername/YourRepository.git
+
 import os
 cwd = os.getcwd()
 print(cwd)
